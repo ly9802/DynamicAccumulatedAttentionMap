@@ -151,18 +151,15 @@ def get_args():
     parser.add_argument("--model_choice",default="deit_small_patch16_224",
                         choices=["deit_tiny_patch16_224","deit_small_patch16_224"])
     parser.add_argument('--pretrained_weights', default=None,type=str, help="Path to pretrained weights")
-    # 不用改, 后面根据 model_choice 更改
+    
     parser.add_argument('--use-cuda', default=True, action='store_true', help='Use NVIDIA GPU acceleration')
     parser.add_argument("--gpu",default="0",type=str)
-    parser.add_argument('--image-path',default='./InputImage/ILSVRC2012_val_00046384.JPEG',type=str,help='Input image path')
-    # ILSVRC2012_val_00046384.JPEG spider n01773797
+    parser.add_argument('--image-path',default='./InputImage/ILSVRC2012_val_00013393.JPEG',type=str,help='Input image path')
+ 
     # ILSVRC2012_val_00048482.JPEG  frog
-    # ILSVRC2012_val_00002815.JPEG  lingyang n02422699
-    # ILSVRC2012_val_00006969.JPEG   鹤
-    # ILSVRC2012_val_00012653.JPEG   凯旋门
-    # ILSVRC2012_val_00013393.JPEG   老鹰
-    # ILSVRC2012_val_00020075.JPEG   油轮
-
+   
+    # ILSVRC2012_val_00013393.JPEG   kite
+     
     parser.add_argument("--save_dir",default="./DAAM/",type=str);
     parser.add_argument('--norm', default=False, action='store_true', help='')
 
