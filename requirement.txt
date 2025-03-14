@@ -1,0 +1,18 @@
+In order to run the code successfully, please install the environtment by following the below instructions, (please install conda or anaconda in advance, then open a terminal in Linux or prompt in Windows) 
+
+conda create -n daam  python==3.8
+
+activate the environment "daam" by using
+
+conda activate daam
+
+install pytorch by using the command
+
+conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=11.1 -c pytorch -c conda-forge
+conda install -c anaconda pillow scikit-learn pandas seaborn cython dbf
+python -m pip install opencv-python -i https://pypi.tuna.tsinghua.edu.cn/simple
+conda install -c conda-forge h5py pretrainedmodels timm einops  yacs cvxpy nested_dict
+
+after installing the above the packages, please run the program by the following command
+
+python VIT_DynamicAccumulatedAttentionMap_oneSample.py
