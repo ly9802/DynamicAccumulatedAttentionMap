@@ -123,7 +123,7 @@ class DynamicAccumulatedAttentionMap:
         self.norm=norm
         self.arch_name=arch_name
         self.gpu_id=gpu_id
-        self.non_liear_mapping=False
+        self.non_liear_mapping=True
 
         self.reshape_transform = reshape_transform
         self.activations_and_grads= ActivationAndGradients(self.model,target_layers,block_layers,arch_name) #object
