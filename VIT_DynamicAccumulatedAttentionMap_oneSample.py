@@ -154,11 +154,11 @@ def get_args():
     
     parser.add_argument('--use-cuda', default=True, action='store_true', help='Use NVIDIA GPU acceleration')
     parser.add_argument("--gpu",default="0",type=str)
-    parser.add_argument('--image-path',default='./InputImage/ILSVRC2012_val_00013393.JPEG',type=str,help='Input image path')
+    parser.add_argument('--image-path',default='./InputImage/ILSVRC2012_val_00046384.JPEG',type=str,help='Input image path')
  
     # ILSVRC2012_val_00048482.JPEG  frog
-   
-    # ILSVRC2012_val_00013393.JPEG   kite
+    # ILSVRC2012_val_00046384.JPEG spider
+    
      
     parser.add_argument("--save_dir",default="./DAAM/",type=str);
     parser.add_argument('--norm', default=False, action='store_true', help='')
