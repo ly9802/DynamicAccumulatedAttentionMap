@@ -10,6 +10,9 @@
       <excludeFolder url="file://$MODULE_DIR$/DAAM/deit_small_patch16_224/video" />
       <excludeFolder url="file://$MODULE_DIR$/InputImage" />
       <excludeFolder url="file://$MODULE_DIR$/utils" />
+      <excludeFolder url="file://$MODULE_DIR$/.img" />
+      <excludeFolder url="file://$MODULE_DIR$/memorybank" />
+      <excludeFolder url="file://$MODULE_DIR$/pretrainedmodels" />
     </content>
     <orderEntry type="jdk" jdkName="TensorFlow" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

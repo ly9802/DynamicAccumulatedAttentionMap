@@ -156,8 +156,9 @@ def get_args():
     parser.add_argument("--gpu",default="0",type=str)
     parser.add_argument('--image-path',default='./InputImage/ILSVRC2012_val_00046384.JPEG',type=str,help='Input image path')
  
-    # ILSVRC2012_val_00048482.JPEG  frog
+    # ILSVRC2012_val_00002815.JPEG impala
     # ILSVRC2012_val_00046384.JPEG spider
+    # ILSVRC2012_val_00012653.JPEG triumphal arch
     
      
     parser.add_argument("--save_dir",default="./DAAM/",type=str);

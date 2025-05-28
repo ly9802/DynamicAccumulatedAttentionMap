@@ -297,6 +297,9 @@ def generate_args():
     parser = argparse.ArgumentParser('Evaluation with weighted k-NN on ImageNet')
     parser.add_argument('--image-path', default='./inputimage/ILSVRC2012_val_00046307.JPEG', type=str,
                         help='Input image path')
+    # ILSVRC2012_val_00046307.JPEG bee eater
+    # ILSVRC2012_val_00013393.JPEG kite
+    # ILSVRC2012_val_00006969.JPEG crane
     parser.add_argument('--method', default='DAAM', type=str, choices=["DAAM"])
     parser.add_argument("--image_size", default=(224, 224), type=int, nargs="+", help="Resize image.")
     parser.add_argument("--norm",default=False,action='store_true')
