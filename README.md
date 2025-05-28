@@ -21,9 +21,9 @@ The pretrained model's weights are automatically downloaded into the pytorch cac
 
 To generate the attention flow for self-supervised ViT models,
 
-1. Download the pretrained models'weights of the self-supervised ViT [DINO](https://github.com/facebookresearch/dino) and [XCiT](https://github.com/facebookresearch/xcit).
+1. Download the pretrained model weights of the self-supervised ViT [DINO](https://github.com/facebookresearch/dino) and [XCiT](https://github.com/facebookresearch/xcit).
    
-2. Generate the memory bank by following the algorithm in 2018 CVPR paper "Unsupervised Feature Learning via Non-parameteric Instance Discrimination"[arxiv](http://arxiv.org/pdf/1805.01978) and using the official pytorch released [code](https://github.com/zhirongw/lemniscate.pytorch)
+2. Generate the memory bank by following the algorithm in 2018 CVPR paper ["Unsupervised Feature Learning via Non-parameteric Instance Discrimination"](http://arxiv.org/pdf/1805.01978) and using the official pytorch released [code](https://github.com/zhirongw/lemniscate.pytorch).
  
 3. Generate the explantion maps for all ViT blocks by using the proposed DAAM.
    
