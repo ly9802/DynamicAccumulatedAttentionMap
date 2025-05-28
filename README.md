@@ -6,7 +6,7 @@ To generate the attention flow for ViT model's prediction, an image is fed into 
 ![Framwork](./.img/FrameworkDAAM.jpg)
 
 # The Environment Setup
-To run the code successfully, please downlod anaconda3 from the [official website](https://www.anaconda.com/download/success) and install it in advance. 
+To run the code successfully, please download the software Anaconda3 from the [official website](https://www.anaconda.com/download/success) and install it in advance. 
 
 1. After installation, open a **Command Prompt** (Windows) or **Terminal** (Linux), input the following command,
 <pre>
