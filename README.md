@@ -5,6 +5,27 @@ To generate the attention flow for ViT model's prediction, an image is fed into 
 
 ![Framwork](./.img/FrameworkDAAM.jpg)
 
+# The Environment Setup
+To run the code successfully, please downlod anaconda3 from the [link](https://www.anaconda.com/download/success) and install it in advance. 
+
+1. After installation, open a **Command Prompt** (Windows) or **Terminal** (Linux), input the following command,
+<pre>
+conda create -n daam  python==3.8
+</pre>
+
+2. Please activate the enrionment `daam` by running
+<pre>
+conda activate daam
+</pre>
+
+3. Please install the pytorch framework and the below libraries by runing the following commands in sequence,
+<pre>
+conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=11.1 -c pytorch -c conda-forge
+conda install -c anaconda pillow scikit-learn pandas seaborn cython dbf
+conda install -c conda-forge h5py timm einops  yacs cvxpy nested_dict
+python -m pip install opencv-python -i https://pypi.tuna.tsinghua.edu.cn/simple
+</pre>
+
 # Dynamic Accumulated Attention Map for Supervised ViT
 ![spider](./.img/DeiT(S_P16)_spider.gif)         ![impala](./.img/DeiT(S_P16)_impala.gif)         ![triumphal_arch](./.img/DeiT(S_P16)_triumphal_arch.gif)
 
