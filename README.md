@@ -9,7 +9,7 @@ To generate the attention flow for ViT model's prediction, an image is fed into 
 ![spider](./.img/DeiT(S_P16)_spider.gif)         ![impala](./.img/DeiT(S_P16)_impala.gif)         ![triumphal_arch](./.img/DeiT(S_P16)_triumphal_arch.gif)
 
 We provide an exmple of using our proposed DAAM algorithm to generate the attention flow for DeiT-Small-Patch16, please run the following python command directly,
-```python python VIT_DynamicAccumulatedAttentionMap_oneSample.py``` 
+<pre>'''python python VIT_DynamicAccumulatedAttentionMap_oneSample.py'''</pre>
 
 # Dynamic Accumulated Attention Map for Self-Supervised ViT
 ![hawk](./.img/DINO(ViT-s-p8)_hawk.gif)         ![crane](./.img/DINO(vit_s_p8)_crane.gif)         ![bee_eater](./.img/DINO(vit_s_p8)bee_eater.gif)   
