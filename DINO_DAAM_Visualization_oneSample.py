@@ -295,7 +295,7 @@ def contri_weight_generate(feature_vector,memory_bank, train_labels,k=20,T=0.07,
 
 def generate_args():
     parser = argparse.ArgumentParser('Evaluation with weighted k-NN on ImageNet')
-    parser.add_argument('--image-path', default='./inputimage/ILSVRC2012_val_00013393.JPEG', type=str,
+    parser.add_argument('--image-path', default='./inputimage/ILSVRC2012_val_00046307.JPEG', type=str,
                         help='Input image path')
     parser.add_argument('--method', default='DAAM', type=str, choices=["DAAM"])
     parser.add_argument("--image_size", default=(224, 224), type=int, nargs="+", help="Resize image.")
