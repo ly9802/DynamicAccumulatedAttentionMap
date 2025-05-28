@@ -10,7 +10,9 @@ To generate the attention flow for ViT model's prediction, an image is fed into 
 
 We provide an exmple of using our proposed DAAM algorithm to generate the attention flow for DeiT-Small-Patch16, please directly run the following python command in **Command Prompt** (Windows) or **Terminal** (Linux), 
 
-  ```python VIT_DynamicAccumulatedAttentionMap_oneSample.py```.
+<pre>
+python VIT_DynamicAccumulatedAttentionMap_oneSample.py
+</pre>.
 
 The pretrained model's weights are automatically downloaded into the pytorch cache by runing the above command. 
 
@@ -26,7 +28,7 @@ To generate the attention flow for self-supervised ViT models,
 3. Generate the explantion maps for all ViT blocks by using the proposed DAAM.
    
 For convenience, we provid an implementation example using **DINO(ViT-Small-Patch8)** to demonstrate how the proposed **DAAM** works. 
-The pretrained model weights are located in the 'pretrainedmodels' folder. The corresponding memory bank can be downloaded from this [Google Drive link](https://drive.google.com/drive/folders/1PRvqtsTxCojx6iqXIqTxM8kA_GGDyFKb?usp=sharing). After downloading, please unzip them and then place the 4 files
+The pretrained model weights are located in the `pretrainedmodels` folder. The corresponding memory bank can be downloaded from this [Google Drive link](https://drive.google.com/drive/folders/1PRvqtsTxCojx6iqXIqTxM8kA_GGDyFKb?usp=sharing). After downloading, please unzip them and then place the 4 files
 
 "trainfeat.pth" 
 
