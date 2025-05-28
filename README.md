@@ -59,7 +59,7 @@ The pretrained model weights are located in the `pretrainedmodels` folder. The c
 
 • "testlabels.pth" 
 
-into the directory `memorybank/DINO/ImageNet2012/`. Finally, please run the following command in **Command Prompt** (Windows) or **Terminal** (Linux),
+into the directory `memorybank/DINO/ImageNet2012/dino_small_p8/`. Finally, please run the following command in **Command Prompt** (Windows) or **Terminal** (Linux),
 
 <pre>
    python DINO_DAAM_Visualization_oneSample.py
