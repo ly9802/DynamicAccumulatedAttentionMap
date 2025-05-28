@@ -22,7 +22,7 @@ conda activate daam
 <pre>
 conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=11.1 -c pytorch -c conda-forge
 conda install -c anaconda pillow scikit-learn pandas seaborn cython dbf
-conda install -c conda-forge h5py timm einops  yacs cvxpy nested_dict
+conda install -c conda-forge h5py timm einops yacs cvxpy nested_dict
 python -m pip install opencv-python -i https://pypi.tuna.tsinghua.edu.cn/simple
 </pre>
 
