@@ -6,4 +6,4 @@ To generate the attention flow for ViT model's prediction, an image is fed into 
 ![Framwork](./.img/FrameworkDAAM.jpg)
 
 # Dynamic Accumulated Attention Map for Self-Supervised ViT
-To generate the attention flow for self-supervised ViT models, the first step is to acquire the pretrained self-supervised ViT models. In this work, we use DINO[https://github.com/facebookresearch/dino] and XCiT[https://github.com/facebookresearch/xcit] 
+To generate the attention flow for self-supervised ViT models, the first step is to download the pretrained models. In this work, we can download the pretrained self-supervised ViT models from [DINO][https://github.com/facebookresearch/dino] and [XCiT][https://github.com/facebookresearch/xcit]. The second step is to generate the corresponding memory bank by following the algorithm in 2018 CVPR unsupervised learning paper ["Unsupervised Feature Learning via Non-parameteric Instance Discrimination"] [http://arxiv.org/pdf/1805.01978]  
