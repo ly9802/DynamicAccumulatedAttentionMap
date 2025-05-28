@@ -29,13 +29,14 @@ To generate the attention flow for self-supervised ViT models,
 For convenience, we provid an implementation example using **DINO(ViT-Small-Patch8)** to demonstrate how the proposed **DAAM** works. 
 The pretrained model weights are located in the 'pretrainedmodels' folder. The corresponding memory bank can be downloaded from this [Google Drive link](https://drive.google.com/drive/folders/1PRvqtsTxCojx6iqXIqTxM8kA_GGDyFKb?usp=sharing). After downloading, please unzip them and then place the 4 files
 
--"trainfeat.pth" 
+"trainfeat.pth" 
 
-+"testfeat.pth"
+"testfeat.pth"
 
-*"trainlabels.pth" 
+"trainlabels.pth" 
 
-*"testlabels.pth" 
+"testlabels.pth" 
+
 into the directory 
 'memorybank/DINO/ImageNet2012/'. 
 Finally, please run the following command in **Command Prompt** (Windows) or **Terminal** (Linux),
