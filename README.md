@@ -10,7 +10,7 @@ To run the code successfully, please downlod anaconda3 from the [link](https://w
 
 1. After installation, open a **Command Prompt** (Windows) or **Terminal** (Linux), input the following command,
 <pre>
-conda create -n daam  python==3.8
+conda create -n daam python==3.8
 </pre>
 
 2. Please activate the enrionment `daam` by running
