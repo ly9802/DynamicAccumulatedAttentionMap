@@ -49,7 +49,7 @@ To generate the attention flow for self-supervised ViT models,
 3. Generate the explantion maps for all ViT blocks by using the proposed DAAM.
    
 For convenience, we provid an implementation example using **DINO(ViT-Small-Patch8)** to demonstrate how the proposed **DAAM** works. 
-The pretrained model weights are located in the `pretrainedmodels` folder. The corresponding memory bank can be downloaded from this [Google Drive link](https://drive.google.com/drive/folders/1PRvqtsTxCojx6iqXIqTxM8kA_GGDyFKb?usp=sharing). After downloading, please unzip them and then place the 4 files,
+The pretrained model weights are located in the `pretrainedmodels` folder. The corresponding memory bank can be downloaded from this [Google Drive](https://drive.google.com/drive/folders/1PRvqtsTxCojx6iqXIqTxM8kA_GGDyFKb?usp=sharing). After downloading, please unzip them and then place the 4 files,
 
 • "trainfeat.pth" 
 
@@ -57,7 +57,7 @@ The pretrained model weights are located in the `pretrainedmodels` folder. The c
 
 • "trainlabels.pth" 
 
-• "testlabels.pth" 
+• "testlabels.pth"
 
 into the directory `memorybank/DINO/ImageNet2012/dino_small_p8/`. Finally, please run the following command in **Command Prompt** (Windows) or **Terminal** (Linux),
 
