@@ -96,7 +96,7 @@ def change_name(img_dir):
 
 if __name__ == "__main__":
 
-    image_dir="./DAAM/deit_small_patch16_224/"
+    image_dir="./1/"
     img_list=os.listdir(image_dir)
 
     new_name="DAAM"
