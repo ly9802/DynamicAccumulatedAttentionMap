@@ -1,5 +1,17 @@
 # Dynamic Accumulated Attention Map
-This repository contains source code necessary to reproduce the explanation maps for ViT model's prediction in image classification task.
+This repository contains source code necessary to reproduce the explanation maps for ViT model's prediction in image classification task in this paper
+[Dynamic Accumulated Attention Map for Interpreting Evolution of Decision-making in Vision Transformer](https://www.sciencedirect.com/science/article/pii/S0031320325002675), if you use the code in this paper, please consider citing:
+<pre>
+@article{yiliaoPR2025dynamic,
+  title={Dynamic accumulated attention map for interpreting evolution of decision-making in vision transformer},
+  author={Liao, Yi and Gao, Yongsheng and Zhang, Weichuan},
+  journal={Pattern Recognition},
+  volume={165},
+  pages={111607},
+  year={2025},
+  publisher={Elsevier}
+}
+<\pre>   
 ## Method Overview
 To generate the attention flow for ViT model's prediction, an image is fed into a ViT model to obtain the decison-making [cls] token. During the calculation of the [cls] token, the semantic spatial map is stored by the proposed decomposition module. Then the semantic spactial map is combined linearly with the importance coefficients derived from the classification score, forming the attention map for a ViT block. According the residual structure in ViT, the attention flow is constructed by acculmulating attention maps from the first ViT block to the last ViT block. The method is depicted by the following, 
 
