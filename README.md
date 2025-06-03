@@ -1,6 +1,6 @@
 # Dynamic Accumulated Attention Map
 This repository contains source code necessary to reproduce the explanation maps for ViT model's prediction in image classification task in this paper
-[Dynamic Accumulated Attention Map for Interpreting Evolution of Decision-making in Vision Transformer](https://www.sciencedirect.com/science/article/pii/S0031320325002675)(Pattern Recognition, 2025). If you use the code in this paper, please consider citing:
+[Dynamic Accumulated Attention Map for Interpreting Evolution of Decision-making in Vision Transformer](https://www.sciencedirect.com/science/article/pii/S0031320325002675) (Pattern Recognition, 2025). If you use the code in this paper, please consider citing:
 
 <pre>
 @article{yiliaoPR2025dynamic,
