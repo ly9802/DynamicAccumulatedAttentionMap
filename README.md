@@ -33,11 +33,11 @@ conda activate daam
 </pre>
 
 3. Please install the pytorch framework and the below libraries by runing the following commands in sequence,
-<pre>
+<pre>  
 conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=11.1 -c pytorch -c conda-forge
+python -m pip install opencv-python -i https://pypi.tuna.tsinghua.edu.cn/simple
 conda install -c anaconda pillow scikit-learn pandas seaborn cython dbf
 conda install -c conda-forge h5py timm einops yacs cvxpy nested_dict
-python -m pip install opencv-python -i https://pypi.tuna.tsinghua.edu.cn/simple
 </pre>
 
 ## Dynamic Accumulated Attention Map for Supervised ViT
