@@ -4,7 +4,7 @@ This repository contains source code necessary to reproduce the explanation maps
 
 <pre>
 @article{yiliaoPR2025dynamic,
-  title={Dynamic accumulated attention map for interpreting evolution of decision-making in vision transformer},
+  title={Dynamic Accumulated Attention Map for Interpreting Evolution of Decision-making in Vision Transformer},
   author={Liao, Yi and Gao, Yongsheng and Zhang, Weichuan},
   journal={Pattern Recognition},
   volume={165},
