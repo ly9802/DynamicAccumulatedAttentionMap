@@ -27,7 +27,7 @@ To run the code successfully, please download the software **Anaconda3** from th
 conda create -n daam python==3.8
 </pre>
 
-2. Please activate the enrionment `daam` by running
+2. Please activate the environment `daam` by running
 <pre>
 conda activate daam
 </pre>
